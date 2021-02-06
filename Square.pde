@@ -55,4 +55,8 @@ class Square {
       randomColor();
     }   
   }
+  public void update() {
+    move();
+    show();
+  }
 }
